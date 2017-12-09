@@ -49,6 +49,7 @@ snack url
   platform="ios"
   preview="true"
   theme="dark"
+  hideCorrectLink="false"
   style="overflow:hidden;background:#212733;border:1px solid rgba(0,0,0,.16);border-radius:4px;height:505px;width:100%
 %}
 @master-atul/test
@@ -62,3 +63,4 @@ snack url
 - preview=`"true|false"`
 - theme="`light|dark`"
 - style=`"overflow:hidden;background:#212733;"`
+- hideCorrectLink="`false|true`" `// Expo web embed widget has incorrect implementation of open external link to the original snack. The plugin by default adds the correct link icon on the right but u can choose to hide it.`
