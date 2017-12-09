@@ -50,7 +50,7 @@ snack url
   preview="true"
   theme="dark"
   hideCorrectLink="false"
-  style="overflow:hidden;background:#212733;border:1px solid rgba(0,0,0,.16);border-radius:4px;height:505px;width:100%
+  style="overflow:hidden;background:#212733;border:1px solid rgba(0,0,0,.16);border-radius:4px;height:600px;width:100%
 %}
 @master-atul/test
 {% endexposnack %}
