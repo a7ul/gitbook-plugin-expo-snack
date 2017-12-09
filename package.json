@@ -1,0 +1,21 @@
+{
+  "name": "gitbook-plugin-expo-snack",
+  "version": "1.0.0",
+  "description": "A gitbook plugin to add expo snacks",
+  "main": "index.js",
+  "repository": "https://github.com/master-atul/gitbook-plugin-expo-snack.git",
+  "author": "Atul R <atulanand94@gmail.com>",
+  "license": "MIT",
+  "engines": {
+       "gitbook": ">1.x.x"
+   },
+   "gitbook": {
+       "properties": {
+           "myConfigKey": {
+               "type": "string",
+               "default": "it's the default value",
+               "description": "It defines my awesome config!"
+           }
+       }
+   }
+}
